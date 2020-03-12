@@ -268,8 +268,37 @@ footer:hover{
     header {
       height: 250px;
     }
+    header.err{
+        height: 250px;
+        background-size: 700px;
+    }
+    header.CV{
+        height: 250px;
+    }
+}
 
 @media screen and (max-width: 400px) {
     header {
       height: 250px;
     }
+    header.err {
+        height: 150px;
+        background-size: 500px;
+    }
+    header.CV{
+        height: 150px;
+        background-size: 120%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header {
+        height: 150px;
+    }
+}
