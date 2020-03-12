@@ -1,0 +1,275 @@
+/* CORPO CENTRALE */
+
+body{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    margin: 0;
+    padding: none;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titolo{
+    color: red;
+    text-shadow: black 2px 2px 1px;
+    font-size: xx-large;
+}
+.titolo_CV{
+    color: red;
+    text-shadow: black 1px 2px 0px;
+    font-size: xx-large;
+}
+header{
+    background: black;
+    background-image: url(Immagini/home.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+}
+header.CV{
+    background: black;
+    background-image: url(Immagini/Classe\ Virtuale.png);
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+}
+header.Orario{
+    background: black;
+    background-image: url(Immagini/home.jpg);
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 300px;
+}
+header.err{
+    background: black;
+    background-image: url(Immagini/errore.jpg);
+    background-size: 2000px;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 350px;
+}
+
+/* BOTTONI */
+
+button{
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border-color: red;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.RG{
+    display: flex;
+    margin: auto;
+    transition: 0.8s;
+}
+.Rg:hover{
+    padding: 15px 30px;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+/* SEZIONI */
+
+section.divisione{
+    background-color: gray;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: red 1px 1px;
+    text-align: center;
+    padding: 5px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+div{
+    background: red;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 60px;
+    border-radius: 5%;
+    box-shadow: gray 0px 0px 7px;
+    border: 1px solid white;
+}
+div.divisione2{
+    background-color: black;
+    height: 1px;
+    padding: 1px;
+    border: 1px solid red
+}
+section.descrizione{
+    padding: 5px 0 10px 0;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: red 0px 0px 7px;
+}
+section.ScritteOrario{
+    padding: 10px;
+    margin-left: 40%;
+    text-align: center;
+    text-shadow: rgb(197, 1, 1) 0px 0px 10px;
+}
+
+
+/* IMMAGINI */
+
+.STA{
+    background-image: url(Immagini/STA.jpg);
+    background-size: 250px;
+    background-position: center;
+}
+.STO{
+    background-image: url(Immagini/STO.jpeg);
+    background-size: 100%;
+    background-position: center;
+}
+.ITA{
+    background-image: url(Immagini/ITA.jpg);
+    background-size: 250px;
+    background-position: center;
+}
+.TEC{
+    background-image: url(Immagini/TEC.png);
+    background-size: 100%;
+    background-position: center;
+}
+.ING{
+    background-image: url(Immagini/ING.jpg);
+    background-size: 250px;
+    background-position: center;
+}
+.ClassRoom{
+    background-image: url(Immagini/Classroom.jpg);
+    background-size: 320px;
+    background-position: center;
+}
+.Drive{
+    background-image: url(Immagini/Drive.png);
+    background-size: 650px;
+    background-position: center;
+}
+.HOME{
+    background-image: url(Immagini/home_logo.png);
+    background-size: 175px;
+    background-position: center;
+}
+.Docs{
+    background-image: url(Immagini/GoogleDocs.png);
+    background-size: 277px;
+    background-position: center;
+}
+.OR{
+    background-image: url(Immagini/OR.jpg);
+    background-size: 277px;
+    background-position: center;
+}
+.EL{
+    background-image: url(Immagini/EL.jpg);
+    background-size: 277px;
+    background-position: center;
+}
+.SN{
+    background-image: url(Immagini/Galilei40.png);
+    background-color: white;
+    background-size: 270px;
+    background-position: center;
+}
+.SV{
+    background-image: url(Immagini/Galilei40.png);
+    background-color: white;
+    background-size: 270px;
+    background-position: center;
+}
+.RE{
+    background-image: url(Immagini/mastercom_logo.png);
+    background-color: white;
+    background-size: 275px;
+    background-position: center;
+}
+.DIR{
+    background-image: url(Immagini/DIR.jpg);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.MATE{
+    background-image: url(Immagini/MATE.png);
+    background-size: 100%;
+    background-position: center;
+}
+.err_img{
+    height: 250px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+/* SCRITTE */
+
+h1.err{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    text-align: center;
+    text-shadow: rgb(197, 1, 1) 0px 0px 4px;
+}
+h2.err{
+    text-align: center;
+    padding: 10px;
+    text-shadow: black 0 5px;
+    text-shadow: rgb(121, 0, 0) 1px 1px 2px;
+}
+h2{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    text-shadow: black 0 5px;
+    text-shadow: rgb(121, 0, 0) 1px 1px 2px;
+}
+h4{
+    margin: 20px 0 0 10px;
+}
+p{
+    margin: 20px 0 0 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(51, 51, 51);
+    color: rgb(145, 145, 145);
+    padding: 15px;
+    text-align: center;
+}
+footer:hover{
+    cursor: help;
+}
+
+/* MEDIA QUERRY */
+
+@media screen and (max-width: 715px) {
+    header {
+      height: 250px;
+    }
+
+@media screen and (max-width: 400px) {
+    header {
+      height: 250px;
+    }
