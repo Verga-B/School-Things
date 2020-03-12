@@ -280,6 +280,7 @@ footer:hover{
 @media screen and (max-width: 400px) {
     header {
       height: 250px;
+      background-size: 120%;
     }
     header.err {
         height: 150px;
@@ -294,13 +295,11 @@ footer:hover{
 @media screen and (max-width: 350px) {
     header {
         height: 200px;
-        background-size: 110%;
     }
 }
 
 @media screen and (max-width: 300px) {
     header {
         height: 150px;
-        background-size: 110%;
     }
 }
