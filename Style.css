@@ -300,5 +300,6 @@ footer:hover{
 @media screen and (max-width: 300px) {
     header {
         height: 150px;
+        background-size: 110%;
     }
 }
