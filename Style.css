@@ -23,6 +23,7 @@ header{
     background-size: 100%;
     background-position: center;
     height: 400px;
+    background-repeat: no-repeat;
 }
 header.CV{
     background: black;
