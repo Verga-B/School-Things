@@ -120,7 +120,6 @@ section.ScritteOrario{
     text-shadow: rgb(197, 1, 1) 0px 0px 10px;
 }
 
-
 /* IMMAGINI */
 
 .STA{
@@ -138,6 +137,16 @@ section.ScritteOrario{
     background-size: 250px;
     background-position: center;
 }
+.CHM{
+    background-image: url(Immagini/Chimica.jpg);
+    background-size: 285px;
+    background-position: center;
+}
+.BIO{
+    background-image: url(Immagini/Biologia.jpg);
+    background-size: 350px;
+    background-position: center;
+}
 .TEC{
     background-image: url(Immagini/TEC.png);
     background-size: 100%;
@@ -150,7 +159,7 @@ section.ScritteOrario{
 }
 .ClassRoom{
     background-image: url(Immagini/Classroom.jpg);
-    background-size: 320px;
+    background-size: 155%;
     background-position: center;
 }
 .Drive{
@@ -202,9 +211,9 @@ section.ScritteOrario{
     background-position: center;
     background-repeat: no-repeat;
 }
-.MATE{
+.MAT{
     background-image: url(Immagini/MATE.png);
-    background-size: 100%;
+    background-size: 260px;
     background-position: center;
 }
 .err_img{
@@ -214,6 +223,7 @@ section.ScritteOrario{
     flex-wrap: wrap;
     margin: auto;
 }
+
 /* SCRITTE */
 
 h1.err{
@@ -257,6 +267,7 @@ footer{
     color: rgb(145, 145, 145);
     padding: 15px;
     text-align: center;
+    width: 100%;
 }
 footer:hover{
     cursor: help;
