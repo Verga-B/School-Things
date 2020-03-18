@@ -52,9 +52,21 @@ header.err{
 
 /* BOTTONI */
 
+button.BK{
+    margin-right: 10px;
+    display: inline;
+    background-color: rgb(58, 0, 58);
+}
+button.BK:hover{
+    display: inline;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
 button{
     padding: 10px 25px;
     background-color: black;
+    margin: 2px;
     color: white;
     border-color: red;
     border-radius: 10px;
@@ -99,6 +111,7 @@ div{
     border-radius: 5%;
     box-shadow: gray 0px 0px 7px;
     border: 1px solid white;
+    transition: 0.5s;
 }
 div.divisione2{
     background-color: black;
@@ -118,6 +131,10 @@ section.ScritteOrario{
     margin-left: 40%;
     text-align: center;
     text-shadow: rgb(197, 1, 1) 0px 0px 10px;
+}
+#Fis{
+    display: none;
+    border-radius: 5%;
 }
 
 /* IMMAGINI */
@@ -202,7 +219,7 @@ section.ScritteOrario{
 .RE{
     background-image: url(Immagini/mastercom_logo.png);
     background-color: white;
-    background-size: 275px;
+    background-size: 280px;
     background-position: center;
 }
 .DIR{
@@ -222,6 +239,16 @@ section.ScritteOrario{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+}
+#FIS{
+    background-image: url(Immagini/Fisica.jpg);
+    background-size: 135%;
+    background-position: top;
+}
+#Fis{
+    background-image: url(Immagini/Fisica.jpg);
+    background-size: 100%;
+    background-position: top;
 }
 
 /* SCRITTE */
@@ -267,7 +294,6 @@ footer{
     color: rgb(145, 145, 145);
     padding: 15px;
     text-align: center;
-    width: 100%;
 }
 footer:hover{
     cursor: help;
