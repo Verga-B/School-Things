@@ -136,6 +136,12 @@ section.ScritteOrario{
     display: none;
     border-radius: 5%;
 }
+#Frame{
+    display: inline;
+}
+#Frame2{
+    display: none;
+}
 
 /* IMMAGINI */
 
@@ -336,8 +342,21 @@ footer:hover{
     }
 }
 
+@media screen and (max-width: 350px) {
+    #Frame2 {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #Frame {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 300px) {
     header {
         height: 150px;
     }
 }
+
