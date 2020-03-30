@@ -136,12 +136,6 @@ section.ScritteOrario{
     display: none;
     border-radius: 5%;
 }
-#Frame{
-    display: inline;
-}
-#Frame2{
-    display: none;
-}
 
 /* IMMAGINI */
 
@@ -256,6 +250,14 @@ section.ScritteOrario{
     background-size: 100%;
     background-position: top;
 }
+img.Orario{
+    margin: auto;
+    display: flex;
+    margin-top: 25px;
+    height: 600px;
+    border: solid red 2px;
+    box-shadow: white 0px 0px 4px;
+}
 
 /* SCRITTE */
 
@@ -321,6 +323,12 @@ footer:hover{
     }
 }
 
+@media screen and (max-width: 850px) {
+    img.Orario {
+        height: 350px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     header {
       height: 250px;
@@ -334,6 +342,9 @@ footer:hover{
         height: 150px;
         background-size: 120%;
     }
+    img.Orario {
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -343,14 +354,8 @@ footer:hover{
 }
 
 @media screen and (max-width: 350px) {
-    #Frame2 {
-        display: inline;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    #Frame {
-        display: none;
+    img.Orario {
+        height: 200px;
     }
 }
 
@@ -360,3 +365,8 @@ footer:hover{
     }
 }
 
+@media screen and (max-width: 300px) {
+    img.Orario {
+        height: 200px;
+    }
+}
