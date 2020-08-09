@@ -82,6 +82,7 @@ button{
 .RG{
     display: flex;
     margin: auto;
+    margin-bottom: 15px;
     transition: 0.8s;
 }
 .Rg:hover{
@@ -139,7 +140,6 @@ section.descrizione{
 section.ScritteOrario{
     padding: 10px;
     margin-left: 40%;
-    text-align: center;
     text-shadow: rgb(197, 1, 1) 0px 0px 10px;
 }
 #Fis{
@@ -321,6 +321,7 @@ footer{
     color: rgb(145, 145, 145);
     padding: 15px;
     text-align: center;
+    margin-top: 25px;
 }
 footer:hover{
     cursor: help;
