@@ -10,7 +10,13 @@ body{
 .titolo{
     color: red;
     text-shadow: black 2px 2px 1px;
-    font-size: xx-large;
+    font-size: 45px;
+    text-decoration: none;
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    border-radius: 50px;
+    padding: 5px;
 }
 .titolo_CV{
     color: red;
@@ -136,6 +142,10 @@ section.ScritteOrario{
     display: none;
     border-radius: 5%;
 }
+#orar{
+    display: none;
+    border-radius: 25px;
+}
 
 /* IMMAGINI */
 
@@ -194,7 +204,12 @@ section.ScritteOrario{
     background-size: 277px;
     background-position: center;
 }
-.OR{
+#ORAR{
+    background-image: url(Immagini/OR.jpg);
+    background-size: 277px;
+    background-position: center;
+}
+#orar{
     background-image: url(Immagini/OR.jpg);
     background-size: 277px;
     background-position: center;

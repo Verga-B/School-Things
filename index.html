@@ -10,11 +10,22 @@
                 alert('RICORDA DI LEGGERE "ERA TUO PADRE!"');
             }
         </script> -->
+        <script>
+            function myFunction() {
+                document.getElementById('orar').style.display = 'flex'
+                document.getElementById('ORAR').style.display = 'none'
+                var x = 0
+            }
+            function mySecondFunction() {
+                document.getElementById('orar').style.display = 'none'
+                document.getElementById('ORAR').style.display = 'flex'                
+            }
+        </script>
         <title>School Things</title>
     </head>
 <body>
     <header>
-        <h1 class="titolo">School Things</h1>
+        <h1 class="titolo"><a href="index.html" class="titolo">School Things</a></h1>
     </header>
 
     <section class="divisione">
@@ -22,8 +33,13 @@
     </section>
 
     <section>
-        <div class="OR"><a href="Pagine/ORARIO.html"><button>ORARIO</button></a></div>
-        <div class="EL"><a href="https://elearning.galileicrema.it" target="_blank"><button>E-Learning</E-Learning></button></a></div>
+        <div id="ORAR"><button type="button" onclick="myFunction()"> ORARIO </button></div>
+        <div id="orar">
+            <a href="Pagine/ORARIO 3IB.html"><button>3IB</button></a>
+            <a href="Pagine/ORARIO 3IA.html"><button>3IA</button></a>
+            <a href="Pagine/ORARIO 3TA.html"><button>3TA</button></a>
+        </div>
+        <div class="EL"><a href="https://elearning.galileicrema.it" target="_blank"><button>E-Learning</button></a></div>
         <div class="SN"><a href="http://www.galileicrema.it" target="_blank"><button>Sito Nuovo</button></a></div>
         <div class="SV"><a href="http://www.galileicrema.it:8080/intraitis/generale/main.asp" target="_blank"><button>Sito Vecchio</button></a></div>
         <div class="ClassRoom"><a href="https://classroom.google.com/u/2/h" target="_blank"><button>ClassRoom</button></a></div>
@@ -36,7 +52,7 @@
         <h3>Scegliere questa Opzione per Visualzizzare il resto dei Siti</h3>
 
     <section>
-        <nav class="RG"><a href="Pagine/ST_O.html"><button class="Rg">Classi Virtuali</button></a></nav>
+        <nav class="RG"><a href="Pagine/Sospeso.html"><button class="Rg">Classi Virtuali</button></a></nav>
     </section>
 
     <section class="descrizione">
@@ -50,6 +66,6 @@
     </section>
 </body>
 <footer>
-    Created by Verga Wiktor | Version 1.2.6
+    Created by Verga Wiktor | Version 1.4
 </footer>
 </html>
