@@ -390,3 +390,8 @@ footer:hover{
         height: 200px;
     }
 }
+@media screen and (max-width: 300px) {
+    .descrizione {
+        width: fit-content;
+    }
+}
