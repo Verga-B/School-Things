@@ -129,8 +129,12 @@ section.descrizione{
     padding: 5px 0 10px 0;
     border: 2px solid white;
     border-radius: 20px;
-    margin: 20px;
+    display: flex;
+    margin: auto;
     box-shadow: red 0px 0px 7px;
+}
+.descrizione{
+    width: 700px;
 }
 section.ScritteOrario{
     padding: 10px;
