@@ -129,13 +129,13 @@ div.divisione2{
 section.descrizione{
     padding: 5px 0 10px 0;
     border: 2px solid white;
+    align-content: center;
     border-radius: 20px;
-    display: flex;
     margin: auto;
     box-shadow: red 0px 0px 7px;
+    width: 45%;
 }
 .descrizione{
-    width: 700px;
 }
 section.ScritteOrario{
     padding: 10px;
@@ -388,10 +388,5 @@ footer:hover{
 @media screen and (max-width: 300px) {
     img.Orario {
         height: 200px;
-    }
-}
-@media screen and (max-width: 300px) {
-    .descrizione {
-        width: fit-content;
     }
 }
