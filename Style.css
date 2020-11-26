@@ -140,8 +140,8 @@ section.ScritteOrario{
     margin-left: 40%;
     text-shadow: rgb(197, 1, 1) 0px 0px 10px;
 }
-#Fis{
-    display: none;
+#MAT{
+    display: flex;
     border-radius: 5%;
 }
 #orar{
@@ -156,30 +156,33 @@ section.ScritteOrario{
     background-size: 250px;
     background-position: center;
 }
-.STO{
+/*.STO{
     background-image: url(Immagini/STO.jpeg);
     background-size: 100%;
     background-position: center;
-}
+} */
 .ITA{
     background-image: url(Immagini/ITA.jpg);
     background-size: 250px;
     background-position: center;
 }
-.CHM{
-    background-image: url(Immagini/Chimica.jpg);
-    background-size: 285px;
+.TEL{
+    background-image: url(Immagini/Telecomunicazioni.png);
+    background-size: 350px;
     background-position: center;
+    background-color: white;
 }
+/*
 .BIO{
     background-image: url(Immagini/Biologia.jpg);
     background-size: 350px;
     background-position: center;
 }
-.TEC{
-    background-image: url(Immagini/TEC.png);
-    background-size: 100%;
-    background-position: center;
+*/
+.INF{
+    background-image: url(Immagini/Informatica.jpeg);
+    background-size: 180%;
+    background-position: right;
 }
 .ING{
     background-image: url(Immagini/ING.jpg);
@@ -229,7 +232,7 @@ section.ScritteOrario{
 }
 .SV{
     background-image: url(Immagini/Galilei40.png);
-    background-color: white;
+    background-color: rgb(255, 251, 195);
     background-size: 270px;
     background-position: center;
 }
@@ -240,16 +243,16 @@ section.ScritteOrario{
     background-position: center;
 }
 .DIR{
-    background-image: url(Immagini/DIR.jpg);
-    background-size: 250px;
-    background-position: center;
+    background-image: url(Immagini/Motoria.jpg);
+    background-size: 400px;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
-.MAT{
+/* .MATE{
     background-image: url(Immagini/MATE.png);
     background-size: 260px;
     background-position: center;
-}
+} */
 .err_img{
     height: 250px;
     padding: 25px;
@@ -257,15 +260,16 @@ section.ScritteOrario{
     flex-wrap: wrap;
     margin: auto;
 }
-#FIS{
-    background-image: url(Immagini/Fisica.jpg);
+#MAT{
+    background-image: url(Immagini/MATE.png);
     background-size: 135%;
     background-position: top;
 }
-#Fis{
-    background-image: url(Immagini/Fisica.jpg);
+#Mat{
+    background-image: url(Immagini/MATE.png);
     background-size: 100%;
     background-position: top;
+    display: none;
 }
 img.Orario{
     margin: auto;
