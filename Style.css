@@ -104,10 +104,29 @@ section.divisione{
     text-align: center;
     padding: 5px;
 }
-section {
+input{
+    text-align: center;
+    background: black;
+    color: white;
+    border: solid red 2px;
+    display: flex;
+    margin: auto;
+    padding: 2px;
+    width: 100px;
+}
+section{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+}
+iframe.Orario{
+    margin: auto;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 750px;
+    width: 75%;
+    box-shadow: red 0px 0px 4px;
 }
 div{
     background: red;
@@ -189,10 +208,20 @@ section.ScritteOrario{
     background-size: 250px;
     background-position: center;
 }
+.TEC{
+    background-image: url(Immagini/Tecn.jpg);
+    background-size: 425px;
+    background-position: center;
+}
 .ClassRoom{
     background-image: url(Immagini/Classroom.jpg);
     background-size: 155%;
     background-position: center;
+}
+.NET{
+    background-image: url(Immagini/NET.jpg);
+    background-size: 107%;
+    background-position: left;
 }
 .Drive{
     background-image: url(Immagini/Drive.png);
@@ -224,6 +253,11 @@ section.ScritteOrario{
     background-size: 277px;
     background-position: center;
 }
+.REL{
+    background-image: url(Immagini/REL.jpg);
+    background-size: 160%;
+    background-position: center;
+}
 .SN{
     background-image: url(Immagini/Galilei40.png);
     background-color: white;
@@ -248,11 +282,11 @@ section.ScritteOrario{
     background-position: bottom;
     background-repeat: no-repeat;
 }
-/* .MATE{
+.MATE{
     background-image: url(Immagini/MATE.png);
-    background-size: 260px;
+    background-size: 300px;
     background-position: center;
-} */
+}
 .err_img{
     height: 250px;
     padding: 25px;
@@ -271,14 +305,7 @@ section.ScritteOrario{
     background-position: top;
     display: none;
 }
-img.Orario{
-    margin: auto;
-    display: flex;
-    margin-top: 25px;
-    height: 600px;
-    border: solid red 2px;
-    box-shadow: white 0px 0px 4px;
-}
+
 
 /* SCRITTE */
 
@@ -346,7 +373,7 @@ footer:hover{
 }
 
 @media screen and (max-width: 850px) {
-    img.Orario {
+    iframe.Orario {
         height: 350px;
     }
 }
@@ -364,7 +391,7 @@ footer:hover{
         height: 150px;
         background-size: 120%;
     }
-    img.Orario {
+    iframe.Orario {
         height: 200px;
     }
 }
@@ -376,7 +403,7 @@ footer:hover{
 }
 
 @media screen and (max-width: 350px) {
-    img.Orario {
+    iframe.Orario {
         height: 200px;
     }
 }
@@ -388,7 +415,7 @@ footer:hover{
 }
 
 @media screen and (max-width: 300px) {
-    img.Orario {
+    iframe.Orario {
         height: 200px;
     }
 }
