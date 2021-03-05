@@ -22,6 +22,13 @@
                 copyText.setSelectionRange(0, 99999);
                 document.execCommand("copy");
             }
+            function codInfo(){
+                var copyText = document.getElementById("inInfo");
+
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                document.execCommand("copy");
+            }
         </script>
     </head>
 <body>
@@ -38,11 +45,11 @@
         <div class="ITA"><a href="https://meet.google.com/lookup/fb6rf2zqpm" target="_blank"><button>Storia / Italiano</button></a></div>
         <div class="STA"><a href="https://meet.google.com/lookup/fz5ajtocxb" target="_blank"><button>Sistemi</button></a></div>
         <div class="DIR"><a href="https://meet.google.com/lookup/hgtkcif5lx" target="_blank"><button>Motoria</button></a></div>
-        <div class="INF"><a href="https://meet.google.com/tfk-ujbt-izv?pli=1&authuser=0" target="_blank"><button>Informatica</button></a></div>
         <div class="ING"><a href="https://meet.google.com/lookup/g5mwtevk3w" target="_blank"><button>Inglese</button></a></div>
         <div class="TEC"><a href="https://meet.google.com/ico-pfay-zvo" target="_blank"><button>Tecnologie</button></a></div>
         <div class="MATE"><a href="https://meet.google.com/" target="_blank" ><button onclick="codMate()">Matematica</button></a><input type="text" value="Galileicrema-3ib" id="inMate"></div>
         <div class="REL"><a href="https://meet.google.com/" target="_blank"><button onclick="codRel()">Religione</button></a><input type="text" value="irc3ib" id="inRel"></div>
+        <div class="INF"><a href="https://meet.google.com/" target="_blank"><button onclick="codInfo()">Informatica</button></a><input type="text" value="info_3ib" id="inInfo"></div>
     </section>
     
     <section class="Nascondi">
