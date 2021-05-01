@@ -9,12 +9,11 @@ body{
 }
 .titolo{
     color: red;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: black 2px 2px 1px;
     font-size: 45px;
     text-decoration: none;
     width: fit-content;
-    display: flex;
-    margin: auto;
     border-radius: 50px;
     padding: 5px;
 }
@@ -32,8 +31,15 @@ header{
 }
 header.CV{
     background: black;
-    background-image: url(Immagini/Classe\ Virtuale.png);
-    background-size: 100%;
+    background-image: url(Immagini/CV.jpg);
+    background-size: 45%;
+    background-position: center;
+    height: 400px;
+}
+header.LIB{
+    background: black;
+    background-image: url(Immagini/HD.png);
+    background-size: 120%;
     background-position: center;
     height: 400px;
 }
@@ -55,7 +61,25 @@ header.err{
     font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 350px;
 }
-
+.navi{
+    margin: auto;
+    color: red;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+.navi:hover{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
 /* BOTTONI */
 
 button.BK{
@@ -81,13 +105,9 @@ button{
 
 .RG{
     display: flex;
+    margin: 10px, 50px;
     margin: auto;
-    margin-bottom: 15px;
     transition: 0.8s;
-}
-.Rg:hover{
-    padding: 15px 30px;
-
 }
 button:hover{
     background-color: white;
@@ -145,6 +165,13 @@ div.divisione2{
     padding: 1px;
     border: 1px solid red
 }
+div.divisione0{
+    background-color: black;
+    height: 0.1px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid rgb(90, 90, 90);
+}
 section.descrizione{
     padding: 5px 0 10px 0;
     border: 2px solid white;
@@ -170,10 +197,16 @@ section.ScritteOrario{
 
 /* IMMAGINI */
 
-.STA{
+.SIS{
     background-image: url(Immagini/STA.jpg);
     background-size: 250px;
     background-position: center;
+}
+.SISLIB{
+    background-image: url(Immagini/sislib.jpg);
+    background-size: 235px;;
+    background-position: right;
+    background-color: white;
 }
 /*.STO{
     background-image: url(Immagini/STO.jpeg);
@@ -181,9 +214,23 @@ section.ScritteOrario{
     background-position: center;
 } */
 .ITA{
+    display: flex;
     background-image: url(Immagini/ITA.jpg);
     background-size: 250px;
     background-position: center;
+}
+#ITALIB{
+    display: flex;
+    background-image: url(Immagini/italib.jpg);
+    background-size: 250px;
+    background-position: center;
+}
+#ITALIB2{
+    display: none;
+    border-radius: 20px;
+    background-image: url(Immagini/italib.jpg);
+    background-size: 500px;
+    background-position: right;
 }
 .TEL{
     background-image: url(Immagini/Telecomunicazioni.png);
@@ -211,6 +258,11 @@ section.ScritteOrario{
 .TEC{
     background-image: url(Immagini/Tecn.jpg);
     background-size: 425px;
+    background-position: center;
+}
+.TECLIB{
+    background-image: url(Immagini/Tecnlib.jpg);
+    background-size: 235px;
     background-position: center;
 }
 .ClassRoom{
@@ -276,7 +328,7 @@ section.ScritteOrario{
     background-size: 280px;
     background-position: center;
 }
-.DIR{
+.MOT{
     background-image: url(Immagini/Motoria.jpg);
     background-size: 400px;
     background-position: bottom;
@@ -286,6 +338,12 @@ section.ScritteOrario{
     background-image: url(Immagini/MATE.png);
     background-size: 300px;
     background-position: center;
+}
+.MATELIB{
+    background-image: url(Immagini/matelib.jpg);
+    background-size: 245px;
+    background-position: top;
+    background-color: white;
 }
 .err_img{
     height: 250px;
@@ -317,7 +375,6 @@ h1.err{
 }
 h1{
     text-align: center;
-    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h3{
     text-align: center;

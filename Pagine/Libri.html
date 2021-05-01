@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link href="../Style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image7x-icon" href="../Logo.ico" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libri</title>
+
+    <script rel="script/javascript">
+        function listaIta() {
+            document.getElementById('ITALIB2').style.display = 'flex';
+            document.getElementById('ITALIB').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <header class="LIB">
+        <nav>
+            <h2><a class="navi" href="ST_O.html">Classi Virtuali</a></h2>
+            <h1><a href="../index.html" class="titolo">School Things</a></h1>
+            <h2><a class="navi" href="Libri.html">E-book</a></h2>
+        </nav>
+    </header>
+
+    <section class="divisione">
+        <h2 class="divisione">Ecco tutti gli E-Book a cui hai accesso!</h2>
+    </section>
+
+    <section>
+        <div class="MATELIB"><a href="https://my.bsmart.it/#/books/2571?revision=3" target="_blank" ><button>Matematica</button></a></div>
+        <div class="SISLIB"><a href="https://my.bsmart.it/#/books/10306?revision=1" target="_blank"><button>Sistemi</button></a></div>
+        <div class="TECLIB"><a href="https://my.bsmart.it/#/books/10302?revision=1" target="_blank"><button>Tecnologie</button></a></div>
+
+        <!-- Sezione di  Italiano-->
+        <div id="ITALIB"><button onclick="listaIta()">Italiano</button></div>
+
+        <div id="ITALIB2">
+            <a href="https://young.hubscuola.it/viewer/4158832?page=1" target="_blank"><button>Volume 1</button></a>
+            <a href="https://young.hubscuola.it/non-disponibile/" target="_blank"><button>Esame di Stato</button></a>
+            <a href="https://young.hubscuola.it/viewer/3795918?page=1" target="_blank"><button>Divina Commedia</button></a>
+        </div>
+    </section>
+<!--
+    <section>
+        <div class="TEL"><a href="https://meet.google.com/lookup/b7db5lgz4f" target="_blank"><button>Telecomunicazioni</button></a></div>
+        
+        
+        <div class="MOT"><a href="https://meet.google.com/_meet/whoops?sc=256&alias=hgtkcif5lx&authuser=0" target="_blank"><button>Motoria</button></a></div>
+        <div class="ING"><a href="https://meet.google.com/lookup/g5mwtevk3w" target="_blank"><button>Inglese</button></a></div>
+        
+        
+        <div class="REL"><a href="https://meet.google.com/" target="_blank"><button onclick="codRel()">Religione</button></a><input type="text" value="irc3ib" id="inRel"></div>
+        <div class="INF"><a href="https://meet.google.com/" target="_blank"><button onclick="codInfo()">Informatica</button></a><input type="text" value="info_3ib" id="inInfo"></div>
+    </section>
+-->
+    
+
+    <div class="divisione2"></div>
+
+    <section class="descrizione">
+        <h4>Ecco una breve descrizione per sapere cosa puoi fare con questa pagina:</h4>
+        <p>
+            Ehi! Questa pagina è stato creato per semplificarvi la vita!<br/>
+            In questa pagina, come potrete notare si presenta la possibilità di accedere ai link per
+            visualizzare le versioni on-line degli E-Book.<br/>
+            In tale maniera vi è possibile velocizzare la fastidiosa ricerca del sito corretto per poter accedere al sito del libro
+        </p>
+    </section>
+
+    <footer id="vers">
+        <script src="../Javascript/Versione.js">
+        </script>
+    </footer>
+</body>
+</html>
