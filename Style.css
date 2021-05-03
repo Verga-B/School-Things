@@ -451,7 +451,7 @@ footer:hover{
 }
 @media screen and (max-width: 400px) {
     header {
-      height: 250px;
+      height: 200px;
       background-size: 120%;
     }
     header.err {
@@ -459,11 +459,11 @@ footer:hover{
         background-size: 500px;
     }
     header.CV{
-        height: 150px;
+        height: 200px;
         background-size: 120%;
     }
     header.LIB{
-        height: 150px;
+        height: 200px;
         background-size: 120%;
     }
     iframe.Orario {
