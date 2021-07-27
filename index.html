@@ -1,75 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="CSS/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binector</title>
-</head>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <head>
+        <link rel="shortcut icon" type="image7x-icon" href="Logo.ico" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>School Things</title>
+    </head>
 <body>
     <header>
         <nav>
-            <h1 class="title_nav">
-                <a href="index.html"><img src="immagini/title.png" alt="Binector" class="title_nav_img"></a>
-            </h1>
-            
-            <div class="tasti_nav">
-                <a href="pagine/mappa.html" class="a_nav">MAPPA</a>
-                <a href="pagine/galleria.html" class="a_nav">Galleria</a>
-                <a href="pagine/chi siamo.html" class="a_nav">Chi Siamo?</a>
-            </div>
+            <h2><a class="navi" href="Pagine/ST_O.html">Classi Virtuali</a></h2>
+            <h1><a href="index.html" class="titolo">School Things</a></h1>
+            <h2><a class="navi" href="Pagine/Libri.html">E-book</a></h2>
         </nav>
+        
+
+        <!-- NAV x TELEFONO -->
+        <nav class="navCell">
+            <h1><a href="index.html" class="titolo">School Things</a></h1>
+            <h2><a class="navi" href="Pagine/ST_O.html">Classi Virtuali</a></h2>
+            <h2><a class="navi" href="Pagine/Libri.html">E-book</a></h2>
+        </nav>
+        <div class="divisione0"></div>
     </header>
 
-    <div class="divisone_nav"></div>
-        
-        <div class="progetto">
-            <h2>Perché questo progetto?</h2>
-        </div>
-        <div class="divis2"></div>
+    <section class="divisione">
+        <h2>Ecco le applicazioni utili!</h2>
+    </section>
 
-        <section class="desc_prog">
-            <p class="p_desc_prog">
-                L'iniziativa prende piede durtante le uscite abitudinali nel paese di Caravaggio, BG; <br>
-                alcuni amici che si ritrovano per vagare e passare del tempo insieme nel paese si rendono 
-                conto di come ci sia una grave maldistribuzione e mancanza di cestini nel paese di 
-                residenza di quest'ultimi.<br>
-                Dopo numerose uscite sofferte a causa di mancaza di cestini 
-                per le strade del paesello il gruppo di amici decide che è ora di fermare quest'agonia!<br>
-                Per farlo decidono di trovare e fotografare ogni cestino del paese per poi crearne una 
-                mappa utilizzabile da tutti su questo sito.<br>
-                Sulla mappa visualizzabile nell'appostita pagina si può vedere la foto del raro cestino 
-                con uno dei partecipanti al progetto, ossia la <i>modella</i>, andando a selezionare il 
-                punto desiderato si potrà anche visualizzare sull'applicazione di mappe (Google Maps) la sua posizione.
-            </p>
-        </section>
+    <section>
+        <div id="ORAR"><a href="Pagine/ORARIO 3IB.html"><button>ORARIO</button></a></div>
+        <div class="EL"><a href="https://elearning.galileicrema.it" target="_blank"><button>E-Learning</button></a></div>
+        <div class="SN"><a href="http://www.galileicrema.it" target="_blank"><button>Sito Nuovo</button></a></div>
+        <div class="SV"><a href="http://www.galileicrema.it:8080/intraitis/generale/main.asp" target="_blank"><button>Sito Vecchio</button></a></div>
+        <div class="ClassRoom"><a href="https://classroom.google.com/" target="_blank"><button>ClassRoom</button></a></div>
+        <div class="Drive"><a href="https://drive.google.com/drive/my-drive" target="_blank"><button>Drive</button></a></div>
+        <div class="RE"><a href="https://galilei-cr-sito.registroelettronico.com/login/" target="_blank"><button>Registro Elettronico</button></a></div>
+    </section>
 
-        <div class="divisore_verde"></div>
+    <div class="divisione2"></div>
 
-        <div>
-            <h3 class="foto">Le foto</h3>
-        </div>
+    <section class="descrizione">
+        <h4 class="descrizione">Ecco una breve descrizione per sapere cosa puoi fare con questo sito:</h4>
+        <p class="descrizione">
+            Ehi! Questo è il mio sito creato per semplificarvi la vita!<br/>
+            Potrete eseguire svariati azioni rendendo tutte le attività giornaliere più comode di modo da essere più veloci e quindi anche più produttivi.<br/>
+            Qua sopra si possono trovare i collegamenti veloci ai strumenti utilizzati dalla scuola per assegnare esercitazioni e materiale didattico;<br/>
+            questo sito dunque mette a disposizione tutti questi struimenti in un unico e comodo punto accessibile da tutti i dispositivi!
+        </p>
+    </section>
 
-        <div class="divis3"></div>
-
-        <section class="foto_desc">
-            <p class="p_desc_foto">
-                Le foto fatte ai cestini sono semplici e il più naturali possibili.<br>
-                L'obiettivo è quello di fornire un'immagine di qualità decente della posizione del cestino includendo anche diversi  punti di riferimento (N.B. I modelli non saranno presenti nella vita reale)<br>
-                Qui mostriamo l'esempio di una foto di un cestino ritrovato durante la mappatura:
-            </p>
-            <picture class="sez_foto">
-                <img src="immagini/simbolo.png" alt="simbolo_riciclo" class="simbolo">
-                <img src="immagini/foto_es.jpeg" alt="foto_es" class="es_foto">
-                <img src="immagini/simbolo.png" alt="simbolo_riciclo" class="simbolo">
-            </picture>
-        </section>
-
-    <footer id="vers">
-        <script src="js/Versione.js">
-        </script>
-    </footer>
-    
+<footer id="vers">
+    <script src="Javascript/Versione.js">
+    </script>
+</footer>    
 </body>
+
 </html>
