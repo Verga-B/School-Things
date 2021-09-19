@@ -250,6 +250,21 @@ section.ScritteOrario{
     background-size: 500px;
     background-position: right;
 }
+
+#MATELIB{
+    display: flex;
+    background-image: url(Immagini/matelib.jpg);
+    background-size: 245px;
+    background-position: top;
+}
+#MATELIB2{
+    display: none;
+    border-radius: 20px;
+    background-image: url(Immagini/matelib.jpg);
+    background-size: 450px;
+    background-position: top;
+}
+
 .TEL{
     background-image: url(Immagini/Telecomunicazioni.png);
     background-size: 350px;
@@ -357,12 +372,6 @@ section.ScritteOrario{
     background-size: 300px;
     background-position: center;
 }
-.MATELIB{
-    background-image: url(Immagini/matelib.jpg);
-    background-size: 245px;
-    background-position: top;
-    background-color: white;
-}
 .err_img{
     height: 250px;
     padding: 25px;
@@ -410,6 +419,11 @@ h2{
     padding: 10px;
     text-shadow: black 0 5px;
     text-shadow: rgb(121, 0, 0) 1px 1px 2px;
+}
+.ERRORE{
+    font-size: 100;
+    padding: 50px;
+    margin-top: 35px;
 }
 h4{
     margin: 20px 0 0 10px;

@@ -13,6 +13,11 @@
             document.getElementById('ITALIB2').style.display = 'flex';
             document.getElementById('ITALIB').style.display = 'none';
         }
+
+        function listaMate() {
+            document.getElementById('MATELIB2').style.display = 'flex';
+            document.getElementById('MATELIB').style.display = 'none';
+        }
     </script>
 </head>
 <body>
@@ -37,17 +42,25 @@
     </section>
 
     <section>
-        <div class="MATELIB"><a href="https://my.bsmart.it/#/books/2571?revision=3" target="_blank" ><button>Matematica</button></a></div>
-        <div class="SISLIB"><a href="https://my.bsmart.it/#/books/10306?revision=1" target="_blank"><button>Sistemi</button></a></div>
-        <div class="TECLIB"><a href="https://my.bsmart.it/#/books/10302?revision=1" target="_blank"><button>Tecnologie</button></a></div>
+        <!-- Sezione di Matematica -->
+        <div id="MATELIB"><button onclick="listaMate()">Matematica</button></div>
 
-        <!-- Sezione di  Italiano-->
+        <div id="MATELIB2">
+            <a href="https://my.bsmart.it/#/books/2571?revision=3" target="_blank" ><button>Volume 3</button></a>
+            <a href="https://my.bsmart.it/#/books/2702?revision=4" target="_blank" ><button>Volume 4</button></a>
+        </div>
+
+        <div class="SISLIB"><a href="https://my.bsmart.it/#/books/13873?revision=1" target="_blank"><button>Sistemi</button></a></div>
+        <div class="TECLIB"><a href="https://my.bsmart.it/#/books/15068?revision=1" target="_blank"><button>Tecnologie</button></a></div>
+
+        <!-- Sezione di Italiano -->
         <div id="ITALIB"><button onclick="listaIta()">Italiano</button></div>
 
         <div id="ITALIB2">
             <a href="https://young.hubscuola.it/viewer/4158832?page=1" target="_blank"><button>Volume 1</button></a>
+            <a href="https://young.hubscuola.it/viewer/4161404?page=1" target="_blank"><button>Volume 2</button></a>
             <a href="https://young.hubscuola.it/non-disponibile/" target="_blank"><button>Esame di Stato</button></a>
-            <a href="https://young.hubscuola.it/viewer/3795918?page=1" target="_blank"><button>Divina Commedia</button></a>
+            
         </div>
     </section>
     
