@@ -235,11 +235,11 @@ section.ScritteOrario{
     background-position: right;
     background-color: white;
 }
-/*.STO{
-    background-image: url(Immagini/STO.jpeg);
+.FIS{
+    background-image: url(Immagini/FIS.jpeg);
     background-size: 100%;
     background-position: center;
-} */
+}
 .ITA{
     display: flex;
     background-image: url(Immagini/ITA.jpg);
