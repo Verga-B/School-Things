@@ -1,3 +1,8 @@
 TODO:
+├ Ricreare pagina index
+ - Aggiungi Ultime notizie della scuola e info base
+├ aggiungere pagina Applicazioni Utili
+├ Aggiungere LogIn per pagina "libri" personalizzata
+├ Aggiungere Pagina di LogIn
 
 BUG FIX:
