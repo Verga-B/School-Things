@@ -61,6 +61,10 @@ header.err{
     font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 350px;
 }
+.loginLogo{
+    width: 125px;
+    height: 75px;
+}
 .navi{
     margin: auto;
     color: red;
@@ -86,10 +90,9 @@ header.err{
 }
 nav{
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
-    margin: auto;
     background-color: rgba(22, 22, 22, 0.75);
-
 }
 nav.navCell{
     display: none;
